@@ -1,15 +1,8 @@
 const app = require('express')()
-app.use(express.json())
-app.use(express.urlencoded({extended: true}))
 const port = 3000
 const cors = require('cors')
 
 app.use(cors())
-
-// app.listen(
-//     PORT,
-//     () => console.log(`testing ${PORT}`)
-// )
 
 app.listen(process.env.PORT || port, () => console.log(`listening on ${port}`))
 
