@@ -50,6 +50,12 @@ app.get('/', (req, res) => {
     )
 })
 
+app.get((req, res) => {
+    res.status(200).send()
+})
+
 app.post('/message', (req, res) => {
- res.send(req.body)
+    res.status(200).send(
+     "done"
+ )
 })
