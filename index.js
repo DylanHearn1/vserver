@@ -81,7 +81,7 @@ const data = [
             }, 
             {
                 room: 'Living room',
-                desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
+                desc: 'Unique living space carried by its floor to roof windows which allow great views into the sky day or night.',
                 image: 'https://production-cdn.momento360.com/e/u/80781f8ce3984d86bfdf50bbe531e348/sphere/preview'
             }
         ]
