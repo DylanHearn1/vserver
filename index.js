@@ -16,13 +16,18 @@ const data = [
         rooms: [
             {
                 room: 'Kitchen',
-                desc: 'sfds sdfs dfsd fsf sdf sfq q3rfw g d sfsd',
-                image: 'https://t3.ftcdn.net/jpg/03/20/60/98/360_F_320609850_BeXpUmEyvWgY4F9B7m6Z8TPpXwAmtDGv.jpg'
+                desc: 'Modern kitchen located at the back of the property, which gives beautiful views of the garden.',
+                image: 'https://images.squarespace-cdn.com/content/v1/5852dd32b8a79b821f127929/1491399134561-1USYBM33QVB2CA15511R/360-demo-kitchen-banner-sm.jpg?format=2500w'
             }, 
             {
-                room: 'Living room',
-                desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
-                image: 'https://cdnb.artstation.com/p/assets/panos/images/022/231/541/large/abu-hozaifa-rgb360-final-01.jpg?1574629368'
+                room: 'Master bedroom',
+                desc: 'Spacious yet cozy master bed acompanied by an en suite.',
+                image: 'https://i0.wp.com/www.samrohn.com/wp-content/uploads/le-meridien-bedroom-panorama.jpg?fit=1200%2C600'
+            },
+            {
+                room: 'Spare bedroom',
+                desc: 'Marble floor along side a window which grants views to the backgarden.',
+                image: 'https://media.istockphoto.com/photos/modern-studio-apartment-360-equirectangular-panoramic-interior-picture-id1096104636?k=6&m=1096104636&w=0&h=h1ERexObDBLvSKFvWs_6qI8viLrfPapfgwGwwIgpZ6U='
             }
         ]
     },
@@ -33,14 +38,14 @@ const data = [
         tags: ['listed', '234,560'],
         rooms: [
             {
-                room: 'Kitchen',
-                desc: 'sfds sdfs dfsd fsf sdf sfq q3rfw g d sfsd',
-                image: 'https://t3.ftcdn.net/jpg/03/20/60/98/360_F_320609850_BeXpUmEyvWgY4F9B7m6Z8TPpXwAmtDGv.jpg'
+                room: 'Master bedroom',
+                desc: 'Mirrors strategically placed throughout the room not only enhance the natural light but also create a sense of openness, reflecting the rooms soothing color palette.',
+                image: 'https://cdn.myportfolio.com/5a4599b2fb32555ba8fdf24bdeba363c/f59c1f7f-2685-494c-bd9b-18e984903f9a_rw_1200.jpg?h=94fd7a850326bdb3b82ddac25bca2b85'
             }, 
             {
-                room: 'Living room',
-                desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
-                image: 'https://cdnb.artstation.com/p/assets/panos/images/022/231/541/large/abu-hozaifa-rgb360-final-01.jpg?1574629368'
+                room: 'Kitchen diner',
+                desc: 'The kitchens ample size allows for a seamless layout, featuring sleek stainless steel appliances and a spacious granite countertop for both style and functionality.',
+                image: 'https://t3.ftcdn.net/jpg/03/72/17/20/360_F_372172035_rtlhHVky4cdnlNfGx0H75hDryeDYMZj3.jpg'
             }
         ]
     },
@@ -52,14 +57,14 @@ const data = [
         tags: ['sold', '654,500'],
         rooms: [
             {
-                room: 'Kitchen',
-                desc: 'sfds sdfs dfsd fsf sdf sfq q3rfw g d sfsd',
-                image: 'https://t3.ftcdn.net/jpg/03/20/60/98/360_F_320609850_BeXpUmEyvWgY4F9B7m6Z8TPpXwAmtDGv.jpg'
+                room: 'Living space',
+                desc: 'Cozy, joint living room and kitchen, accompanied by a large patio door ',
+                image: 'https://cdnb.artstation.com/p/assets/panos/images/025/189/167/large/mohammx-shirbeigi-shirbeigi-kitchen-and-interior-design-360-vr-render-2-lowres.jpg?1584961186'
             }, 
             {
-                room: 'Living room',
-                desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
-                image: 'https://cdnb.artstation.com/p/assets/panos/images/022/231/541/large/abu-hozaifa-rgb360-final-01.jpg?1574629368'
+                room: 'Master bedroom',
+                desc: 'Cozy up with the soft textures of the bedding and rugs, inviting you to relax and unwind in this inviting space.',
+                image: 'https://cf.bstatic.com/xdata/images/xphoto/2560x1280/133646765.jpg?k=9ffadee60f2ceb3ad53bbbe8ec5825d0c3ec0faa775f25e66377ef455ff982c0&o='
             }
         ]
     },
@@ -70,14 +75,14 @@ const data = [
         tags: ['sold', '534,200'],
         rooms: [
             {
-                room: 'Kitchen',
-                desc: 'sfds sdfs dfsd fsf sdf sfq q3rfw g d sfsd',
-                image: 'https://t3.ftcdn.net/jpg/03/20/60/98/360_F_320609850_BeXpUmEyvWgY4F9B7m6Z8TPpXwAmtDGv.jpg'
+                room: 'Master bedroom',
+                desc: 'Storage is a breeze with the spacious layout, incorporating a walk-in wardrobe and built-in closets without sacrificing the rooms comfortable feel.',
+                image: 'https://cf.bstatic.com/xdata/images/xphoto/2560x1280/116692824.jpg?k=fac0585bb40b07a532493c2ccf2c1505a116014e9b3f7c0164c695fdd98227a8&o='
             }, 
             {
                 room: 'Living room',
                 desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
-                image: 'https://cdnb.artstation.com/p/assets/panos/images/022/231/541/large/abu-hozaifa-rgb360-final-01.jpg?1574629368'
+                image: 'https://production-cdn.momento360.com/e/u/80781f8ce3984d86bfdf50bbe531e348/sphere/preview'
             }
         ]
     },
@@ -89,14 +94,14 @@ const data = [
         tags: ['listed', '645,000'],
         rooms: [
             {
-                room: 'Kitchen',
-                desc: 'sfds sdfs dfsd fsf sdf sfq q3rfw g d sfsd',
-                image: 'https://t3.ftcdn.net/jpg/03/20/60/98/360_F_320609850_BeXpUmEyvWgY4F9B7m6Z8TPpXwAmtDGv.jpg'
+                room: 'Living space',
+                desc: 'Open-plan, spacious layout designed with ease of navigation and lighting.',
+                image: 'https://az.360-data.com/tours/AaGzqFmkzgFcetCsYglb11JPGjpg'
             }, 
             {
-                room: 'Living room',
-                desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
-                image: 'https://cdnb.artstation.com/p/assets/panos/images/022/231/541/large/abu-hozaifa-rgb360-final-01.jpg?1574629368'
+                room: 'Master bedroom',
+                desc: 'Humble, bright master with a walk-in wardrobe and plenty of space for a king-size bed.',
+                image: 'https://az.360-data.com/tours/8xVSGW3XT0VSnWHQqjCFSj6R0010447jpgjpg'
             }
         ]
     },
@@ -107,14 +112,14 @@ const data = [
         tags: ['listed', '325,900'],
         rooms: [
             {
-                room: 'Kitchen',
-                desc: 'sfds sdfs dfsd fsf sdf sfq q3rfw g d sfsd',
-                image: 'https://t3.ftcdn.net/jpg/03/20/60/98/360_F_320609850_BeXpUmEyvWgY4F9B7m6Z8TPpXwAmtDGv.jpg'
+                room: 'Living room',
+                desc: 'Tucked into the corner of the house, this room is the corner stone of the house.',
+                image: 'https://gc.360-data.com/tours/XZYCMbGIP/XZYCMbGIP-9xlWGs9UacmI-scene.jpg'
             }, 
             {
-                room: 'Living room',
-                desc: 'sfds sdfssdfsdf dfsd fghdffsf sdfhfghffgh gh sfq fgh3dfhfgrsdffw g sdfghfd sfsd',
-                image: 'https://cdnb.artstation.com/p/assets/panos/images/022/231/541/large/abu-hozaifa-rgb360-final-01.jpg?1574629368'
+                room: 'Living space',
+                desc: 'Open-plan living space with as much natural light entering in as possible.',
+                image: 'https://az.360-data.com/tours/M2dO2hSJTyAprnHLAEBpLivingRoom3jpgjpg'
             }
         ]
     }
