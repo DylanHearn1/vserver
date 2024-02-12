@@ -9,8 +9,11 @@ app.listen(process.env.PORT || port, () => console.log(`listening on ${port}`))
 const { Pool } = require('pg')
 require('dotenv').config()
 
+const poolKey = process.env.POSTGRES_URL;
+
 const pool = new Pool({
-  connectionString: "postgres://default:u1wQDqErKUO4@ep-fancy-water-a2ctu7jl-pooler.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require",
+    connectionString: poolKey,
+    
 })
 
 app.get('/:filter', async (req, res) => {
