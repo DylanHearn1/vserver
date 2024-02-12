@@ -31,15 +31,20 @@ app.get('/:filter', async (req, res) => {
     }
 })
 
-app.get('/property/:id', (req, res) => {
+app.get('/property/:id', async (req, res) => {
     const id = req.params.id
 
-    const returnProperty = data.filter(property => property.id === id)
-
-    if (returnProperty) {
-        res.status(200).json(returnProperty)
-    } else {
-        res.status(400).json('no data found')
+    try {
+        result = await pool.query(`SELECT * FROM property WHERE id = ${id}`)
+        if (!result) {
+            res.status(500)
+        } else {
+            res.json(result.rows)  
+        }
+        
+    } catch (e) {
+        console.error(error, 'error fetching data')
+        res.status(500).json(error, 'database error')
     }
 
 })
